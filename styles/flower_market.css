@@ -112,6 +112,120 @@ border: none;
 color: #FFFFFF;
 font-weight: 600;
 }
+/* Flower And Plants LOver Section */
+
+.flower-image-wrapper {
+  position: relative;
+  display: inline-block;
+}
+.flower-image-wrapper img {
+  display: block;
+}
+.trusted-badge {
+  position: absolute;
+  top: -100px;
+  right: -70px;
+  width: 260px;
+  height: 260px;
+  z-index: 2;
+}
+.flower_lover_section{
+    display: flex;
+    margin: 0px 150px;
+    gap: 60px;
+    margin-bottom: 130px;
+}
+.flower_lovers h1{
+    font-size: 3.1rem;
+    font-weight: bold;
+}
+.flower_lovers ul li{
+    font-size: 1.2rem;
+    color: rgba(0, 0, 0, 0.5);
+    padding-bottom: 20px;
+}
+.Latest_Tittle{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+}
+.latest_des{
+    font-size: 1.2rem;
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+
+.Latest_Deals_main{
+    display: flex;
+    gap: 30px;
+    margin: 150px 150px 120px 150px;
+}
+.half_img{
+    width: 50%;
+}
+.Latest_Deals_main img{
+border-radius: 22px;
+}
+.margin_top{
+    margin-top: 25px;
+}
+
+/* Contact Section */
+
+.contact_sction {
+  background-image: url(../assets/news-letter-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 150px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contract_Tittle {
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.newsletter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.email-input {
+  height: 50px;
+  width: 600px;
+  padding: 0 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+  font-size: 1rem;
+  outline: none;
+}
+
+.submit-button {
+  height: 50px;
+  width: 180px;
+  padding: 0 20px;
+  border: none;
+  background-color: #E95A08;
+  color: white;
+  font-size: 1rem;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: royalblue;
+}
 
 @media screen and (max-width: 576px) {
     .banner_parent_div{
