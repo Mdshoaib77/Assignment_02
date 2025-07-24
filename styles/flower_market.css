@@ -155,22 +155,92 @@ font-weight: 600;
     text-align: center;
 }
 
-
+/* Latest deals */
 .Latest_Deals_main{
     display: flex;
+    position: relative;
     gap: 30px;
     margin: 150px 150px 120px 150px;
 }
+.Latest_Deals{
+      position: relative;
+}
+.big_img_inside_text{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    font-size: 2.8rem;
+    font-weight: bold;
+     color: #FFFFFF;
+     white-space: nowrap; 
+}
+.big_img_inside_p{
+    position: absolute;
+    font-size: 1.8rem;
+    top: 50%;
+    left: 40%;
+    color: #FFFFFF;
+    white-space: nowrap; 
+    font-weight: 600;
+    text-decoration: underline white;
+
+}
 .half_img{
     width: 50%;
+        position: relative;
+
 }
+
+.text_inside{
+    position: absolute;
+    top: 10%;
+    left: 35%;
+    color: #FFFFFF;
+    font-weight: 600;
+     white-space: nowrap; 
+     font-size: 1.3rem;
+}
+.p-inside{
+ position: absolute;
+    top: 20%;
+    left: 60%;
+    color: #FFFFFF;
+     white-space: nowrap; 
+     font-size: 1.3rem;
+     text-decoration: underline white;
+     font-size: 1rem;
+     font-weight: 600;
+}
+.half_img2{
+    position: relative;
+}
+
+.text_inside2{
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    color: #FFFFFF;
+     white-space: nowrap; 
+     font-size: 1.3rem;
+}
+.p-inside2{
+ position: absolute;
+    top: 50%;
+    left: 60%;
+    color: #FFFFFF;
+     white-space: nowrap; 
+     font-size: 1.3rem;
+     text-decoration: underline white;
+     font-size: 1rem;
+     font-weight: 600;
+}
+
 .Latest_Deals_main img{
 border-radius: 22px;
 }
 .margin_top{
     margin-top: 25px;
 }
-
 /* Contact Section */
 
 .contact_sction {
