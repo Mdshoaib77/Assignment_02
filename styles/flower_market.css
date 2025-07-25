@@ -350,7 +350,7 @@ border-radius: 22px;
         display: none;
     }
     .navbar{
-        gap: 160px;
+        gap: 100px;
         margin-left: 0px;
         align-items: center;
     }
@@ -401,16 +401,33 @@ font-size: 0.6rem;
   width: 100px;
   padding: 0px; */
 }
-
-  /* Plants Section */
-  .plants_parents_div {
+   .plants_parents_div {
+    display: grid;
     grid-template-columns: repeat(2, 1fr);
-    margin: 0px 10px;
     gap: 20px;
+    margin: 0 auto 50px;
+    padding: 0 12px;
+    width: 100%;
+    box-sizing: border-box;
   }
 
-  .plant_name, .price {
-    font-size: 1rem;
+  .plants_section {
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+  .plants_section img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  .btn_cart {
+    padding: 12px 0;
+    width: 100%;
+    font-size: 0.9rem;
+    border-radius: 5px;
   }
   /* Flower Lover Section */
   .flower_lover_section {
