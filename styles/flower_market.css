@@ -350,7 +350,7 @@ border-radius: 22px;
         display: none;
     }
     .navbar{
-        gap: 100px;
+        gap: 90px;
         margin-left: 0px;
         align-items: center;
     }
@@ -476,6 +476,7 @@ padding-left: 8px;
     font-size: 1rem;
     top: 50%;
     left: 40%;
+     text-decoration: underline white;
   }
 
   .text_inside{
@@ -493,11 +494,13 @@ padding-left: 8px;
     top: 18%;
     left: 40%;
     font-size: 1rem;
+    text-decoration: underline white;
 }
 .p-inside2 {
     font-size: 1rem;
     top: 50%;
     left: 40%;
+     text-decoration: underline white;
   }
   .Latest_Deals_main img {
     width: 100%;
@@ -510,7 +513,7 @@ padding-left: 8px;
   }
 /* Contact Section */
     .contract_Tittle {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
   }
      .newsletter {
     flex-wrap: nowrap;
@@ -519,7 +522,7 @@ padding-left: 8px;
 
   .email-input {
     width: 60vw;
-    max-width: 250px;
+    max-width: 200px;
     min-width: 100px;
   }
 
