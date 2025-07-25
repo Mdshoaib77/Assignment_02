@@ -89,7 +89,6 @@
             </div>
            </div>
         </section>
-
         <section class="flower_lover_section">
                 <div class="flower_lovers flower-image-wrapper">
                    <img src="assets/flower-store.png" alt="">
@@ -174,10 +173,15 @@
                 <img src="assets/icon-youtube.png" alt="">
             </div>
            </div>
-              
         </div>
-
-
     </footer>
 </body>
+<script>
+  const cartButtons = document.querySelectorAll('.btn_cart');
+  cartButtons.forEach(button => {
+    button.addEventListener('click', function () {
+      alert('Flower Added to Cart');
+    });
+  });
+</script>
 </html>

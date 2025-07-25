@@ -120,14 +120,24 @@ font-weight: 600;
 .flower-image-wrapper img {
   display: block;
 }
-.trusted-badge {
+ .trusted-badge {
   position: absolute;
   top: -100px;
   right: -70px;
   width: 260px;
   height: 260px;
   z-index: 2;
+  animation: rotateBadge 10s linear infinite;
 }
+@keyframes rotateBadge {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 .flower_lover_section{
     display: flex;
     margin: 0px 150px;
@@ -408,6 +418,9 @@ font-size: 0.6rem;
     margin: 40px 20px;
     text-align: center;
   }
+    .flower_lover_section img{
+padding-left: 8px;
+    }
 
   .flower_lovers h1 {
     font-size: 2rem;
