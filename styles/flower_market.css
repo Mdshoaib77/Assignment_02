@@ -13,12 +13,11 @@
   font-variation-settings:"wdth" 100;
 }
 
-
 .body{
     background-color: #F5F8FF;
-     margin: 0;
+     /* margin: 0;
   padding: 0;
-  overflow-x: hidden;
+  overflow-x: hidden; */
 }
 
 /* Navbar */
@@ -350,4 +349,29 @@ border-radius: 22px;
     grid-template-columns: repeat(2, 1fr);
     margin: 0px;
 }
+.plants_section img{
+  width: 100%;
 }
+.flower_lover_section{
+
+    flex-direction: column;
+    margin: 0px;
+}
+.flower_lovers img{
+  margin-top: 0px;
+  width: 100%;
+}
+.btn_cart{
+/* font-size: 0.4rem; */
+white-space: nowrap;
+}
+.Latest_Deals_main{
+  flex-direction: column;
+}
+.Latest_Deals_mai{
+  width: 100px;
+  padding: 0px;
+}
+
+}
+
